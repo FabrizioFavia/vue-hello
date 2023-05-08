@@ -1,3 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+    color: white;
+}
 .red{
     color: red;
+}
+
+.block{
+    display: block;
+    margin: 0.5em;
+}
+
+#app{
+    padding: 3em;
+}
+
+body{
+    background-color: red;
+}
+
+.imageContainer{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
 }
