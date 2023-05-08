@@ -5,27 +5,26 @@
     background-color: #222;
     color: white;
 }
-.red{
-    color: red;
-}
 
 .block{
     display: block;
     margin: 0.5em;
+    background-color: #222;
+
 }
 
 #app{
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
-    
-    
+    border: 1px solid #333232;
+    background-color: #222;
 }
 
 
 
 .imageContainer{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }

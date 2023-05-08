@@ -14,8 +14,8 @@
 
 <body>
 <main>
-    <div class="mt-5 d-flex flex-column align-items-center" id="app">
-        <h1 v-if="name"> {{message}} {{name}} {{surname}}</h1>
+    <div class="mt-5 d-flex flex-column align-items-center p-3 rounded text-center" id="app">
+        <h1 v-bind:class="display" v-if="name"> {{message}} {{name}} {{surname}}</h1>
         <img v-if="image" v-bind:class="dimension" v-bind:src="image" alt="">
         <label v-bind:class="display">Nome</label>
         <input v-bind:class="display" v-model="name" type="text" placeholder="Inserisci il tuo nome">
