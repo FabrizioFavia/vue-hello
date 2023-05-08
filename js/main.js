@@ -4,7 +4,7 @@
       createApp({
         data() {
           return {
-            message: 'Ciao',
+            message: 'Benvenuto',
             name: '',
             surname: '',
             display: "block",
